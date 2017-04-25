@@ -14,6 +14,16 @@
 		183759EE1EADE0680086DF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183759ED1EADE0680086DF78 /* Assets.xcassets */; };
 		183759F11EADE0680086DF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183759EF1EADE0680086DF78 /* LaunchScreen.storyboard */; };
 		183759FC1EADE0680086DF78 /* OOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183759FB1EADE0680086DF78 /* OOPTests.swift */; };
+		18375A081EADE18A0086DF78 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18375A061EADE18A0086DF78 /* Cities.plist */; };
+		18375A091EADE18A0086DF78 /* Districts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18375A071EADE18A0086DF78 /* Districts.plist */; };
+		18375A0C1EADE1AB0086DF78 /* PlistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A0B1EADE1AB0086DF78 /* PlistService.swift */; };
+		18375A0F1EADE4780086DF78 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A0E1EADE4780086DF78 /* City.swift */; };
+		18375A111EADE48A0086DF78 /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A101EADE48A0086DF78 /* District.swift */; };
+		18375A131EADE7600086DF78 /* PlaceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A121EADE7600086DF78 /* PlaceProtocol.swift */; };
+		18375A151EADE8850086DF78 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A141EADE8850086DF78 /* DataService.swift */; };
+		18375A181EADEC730086DF78 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A171EADEC730086DF78 /* BaseTableViewController.swift */; };
+		18375A1A1EADED120086DF78 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A191EADED120086DF78 /* CityTableViewController.swift */; };
+		18375A1C1EADED850086DF78 /* DistrictTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18375A1B1EADED850086DF78 /* DistrictTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,16 @@
 		183759F71EADE0680086DF78 /* OOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183759FB1EADE0680086DF78 /* OOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPTests.swift; sourceTree = "<group>"; };
 		183759FD1EADE0680086DF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18375A061EADE18A0086DF78 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		18375A071EADE18A0086DF78 /* Districts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Districts.plist; sourceTree = "<group>"; };
+		18375A0B1EADE1AB0086DF78 /* PlistService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistService.swift; sourceTree = "<group>"; };
+		18375A0E1EADE4780086DF78 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		18375A101EADE48A0086DF78 /* District.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		18375A121EADE7600086DF78 /* PlaceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceProtocol.swift; sourceTree = "<group>"; };
+		18375A141EADE8850086DF78 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		18375A171EADEC730086DF78 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		18375A191EADED120086DF78 /* CityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		18375A1B1EADED850086DF78 /* DistrictTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,11 @@
 		183759E21EADE0680086DF78 /* OOP */ = {
 			isa = PBXGroup;
 			children = (
+				18375A161EADEC5D0086DF78 /* Controller */,
+				18375A0D1EADE3E40086DF78 /* Model */,
+				18375A0A1EADE1920086DF78 /* DataServices */,
+				18375A061EADE18A0086DF78 /* Cities.plist */,
+				18375A071EADE18A0086DF78 /* Districts.plist */,
 				183759E31EADE0680086DF78 /* AppDelegate.swift */,
 				183759E51EADE0680086DF78 /* ViewController.swift */,
 				183759E71EADE0680086DF78 /* Main.storyboard */,
@@ -97,6 +122,35 @@
 				183759FD1EADE0680086DF78 /* Info.plist */,
 			);
 			path = OOPTests;
+			sourceTree = "<group>";
+		};
+		18375A0A1EADE1920086DF78 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				18375A0B1EADE1AB0086DF78 /* PlistService.swift */,
+				18375A141EADE8850086DF78 /* DataService.swift */,
+			);
+			name = DataServices;
+			sourceTree = "<group>";
+		};
+		18375A0D1EADE3E40086DF78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18375A0E1EADE4780086DF78 /* City.swift */,
+				18375A101EADE48A0086DF78 /* District.swift */,
+				18375A121EADE7600086DF78 /* PlaceProtocol.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18375A161EADEC5D0086DF78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18375A171EADEC730086DF78 /* BaseTableViewController.swift */,
+				18375A191EADED120086DF78 /* CityTableViewController.swift */,
+				18375A1B1EADED850086DF78 /* DistrictTableViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +237,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				183759F11EADE0680086DF78 /* LaunchScreen.storyboard in Resources */,
+				18375A091EADE18A0086DF78 /* Districts.plist in Resources */,
 				183759EE1EADE0680086DF78 /* Assets.xcassets in Resources */,
 				183759E91EADE0680086DF78 /* Main.storyboard in Resources */,
+				18375A081EADE18A0086DF78 /* Cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18375A181EADEC730086DF78 /* BaseTableViewController.swift in Sources */,
 				183759EC1EADE0680086DF78 /* OOP.xcdatamodeld in Sources */,
+				18375A1A1EADED120086DF78 /* CityTableViewController.swift in Sources */,
+				18375A111EADE48A0086DF78 /* District.swift in Sources */,
+				18375A131EADE7600086DF78 /* PlaceProtocol.swift in Sources */,
+				18375A0F1EADE4780086DF78 /* City.swift in Sources */,
+				18375A1C1EADED850086DF78 /* DistrictTableViewController.swift in Sources */,
 				183759E61EADE0680086DF78 /* ViewController.swift in Sources */,
+				18375A0C1EADE1AB0086DF78 /* PlistService.swift in Sources */,
 				183759E41EADE0680086DF78 /* AppDelegate.swift in Sources */,
+				18375A151EADE8850086DF78 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
